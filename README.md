@@ -17,8 +17,6 @@ Aplicação pequena em **PHP puro** para demonstrar os requisitos do Trabalho Fi
 3. Acesse `http://localhost/Agenda_Estudos_Exemplo_Didatico/public/`.
 4. Cadastre um usuário com e-mail de teste e senha de pelo menos 8 caracteres.
 
-> **Atenção:** o ideal para aplicações reais é configurar o Apache para servir somente a pasta `public/`. Neste exemplo, `storage/.htaccess` também bloqueia acesso direto aos dados quando o Apache respeita `.htaccess`. Não publique esse projeto na internet sem uma revisão de segurança e a configuração correta do servidor.
-
 ### Servidor embutido do PHP
 
 Na raiz da pasta, execute:
@@ -27,7 +25,7 @@ Na raiz da pasta, execute:
 php -S localhost:8000 -t public
 ```
 
-Abra `http://localhost:8000/`. Este servidor é apenas para desenvolvimento.
+Abra `http://localhost:8000/`. 
 
 ## Organização
 

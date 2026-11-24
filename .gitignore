@@ -1,0 +1,4 @@
+# Os arquivos de dados são gerados durante o uso e não devem ir para o Git.
+/storage/*.json
+.env
+
